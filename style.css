@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f1f1f1;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  width: min(100%, 60rem);
+  height: 60rem;
+  margin: 5rem auto;
+  padding: 5rem;
+  text-align: center;
+  background: url(Peace.jpg);
+  background-repeat: no-repeat;
+  background-size: 60rem 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4rem;
+  border-radius: 2rem;
+}
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.btn {
+  padding: 1rem 1.5rem;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.joke {
+  font-size: 1.8rem;
+}
+.hidden {
+  display: none;
+}
+.preLoader {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  inset: 0; */
+  position: absolute;
+  top: 29%;
+}
